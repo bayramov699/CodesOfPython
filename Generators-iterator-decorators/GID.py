@@ -72,7 +72,7 @@ print(new_func())
 def Dollar(func):
     def inner(*args, **kwargs):
         print("$"*10)
-        func(**args, **kwargs)
+        func(*args, **kwargs)
         print("$"*10)
     return inner
 
