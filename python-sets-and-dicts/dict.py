@@ -38,7 +38,10 @@ print(20 not in cube)
 for i in cube:
     print(cube[i])
 
+#length of dict
 print(len(cube))
 
+#to sort dict
 mix = {5, 1, 25, 18, 15}
 print(sorted(mix))
+
