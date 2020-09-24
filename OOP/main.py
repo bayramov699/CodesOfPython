@@ -5,8 +5,9 @@ class Person:
         self.name=name
         self.surname=surname
         self.person_type=person_type
+        
     def __str__(self):
-        return
+        return self.value
         
 class Alive:
     def greeting(self):
